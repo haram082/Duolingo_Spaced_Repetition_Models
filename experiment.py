@@ -207,7 +207,6 @@ def spearmanr(l1, l2):
     return num/math.sqrt(d1*d2)
 
 
-import pandas as pd
 def read_data(input_file, method, omit_bias=False, omit_lexemes=False, max_lines=None):
     # read learning trace data in specified format, see README for details
     sys.stderr.write('reading data...')
