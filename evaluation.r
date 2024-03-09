@@ -13,7 +13,7 @@ sr_evaluate <- function(preds_file) {
 }
 
 
-
+sr_evaluate("results/hlr/preds")  
 sr_evaluate("results/lr/preds")
 sr_evaluate("results/leitner/preds")
 sr_evaluate("results/pimsleur/preds")
